@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color: rgb(30, 138, 8);
+}
+
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    /* x-offset y-offset blur-radius color */
+    box-shadow: 
+        0px 4px 12px #1900ffdb,
+        4px 4px 4px red;
+}
+
+p {
+    /* serif, sans-serif, monospace, cursive, fantasy */
+    font-family: 
+        'Lucida Sans', 'Lucida Sans Regular', 
+        'Lucida Grande', 'Lucida Sans Unicode', 
+        Geneva, Verdana, sans-serif;
+    color: red;
+}
