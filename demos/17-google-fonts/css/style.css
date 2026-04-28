@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family:  sans-serif;
+    background: repeating-linear-gradient(
+        to bottom right,
+        #3aa29f,
+        #a4f4f4,
+        #289ea9,
+        #3aa29f 500px
+    );
+    min-height: 100vh;
+}
+
+.centered-column {
+    max-width: 600px;
+    margin: 24px auto;
+    background-color: aquamarine;
+    border: 10px solid #093e93;
+    padding: 36px;
+    border-radius: 36px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+h1,
+h3 {
+   font-family: "Coiny", system-ui;
+   color: #093e93;
+}
+
+p {
+    font-size: 18px;
+}
