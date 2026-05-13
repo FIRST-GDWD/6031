@@ -7,10 +7,23 @@ body {
     font-family: sans-serif;
 }
 
-p.bold.fancy {
-
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 12px;
 }
 
-.bold.fancy {
-    
+.flex {
+    display: flex;
+}
+
+.brand {
+    flex: 1;
+    padding: 24px;
+    border-right: 5px solid black;
+    min-height: 500px;
+}
+
+.brand:last-child {
+    border-right: 0;
 }
